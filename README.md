@@ -11,10 +11,10 @@ class Vini:
         self.formacao = "Bacharelado em Ciência da Computação - UFSCar Sorocaba"
         self.linguagem = ["pt_BR", "en_US"] # en_US 50%
 
-    def mais_informacoes(self):
+    def quero_mais_informacoes(self):
         print("Para mais informações você pode me encontrar no https://www.linkedin.com/in/iamfurukawa")
         
-    def ferramentas_e_tecnologias(self):
+    def sei_ferramentas_e_tecnologias(self):
         return [
           "Python",
           "JS", # E um pouco de TS
@@ -33,13 +33,13 @@ class Vini:
           "PHP",
         ]
     
-    def aprendendo(self):
+    def estou_aprendendo(self):
         return [".net Core MVC", "Go", "Ruby"]
 
 eu = Vini()
-eu.ferramentas_e_tecnologias()
-eu.aprendendo()
-eu.mais_informacoes()
+eu.sei_ferramentas_e_tecnologias()
+eu.estou_aprendendo()
+eu.quero_mais_informacoes()
 ```
 
 <!--
