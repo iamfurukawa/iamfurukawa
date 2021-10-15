@@ -38,6 +38,7 @@ class Vini:
 
 eu = Vini()
 eu.ferramentas_e_tecnologias()
+eu.aprendendo()
 eu.mais_informacoes()
 ```
 
