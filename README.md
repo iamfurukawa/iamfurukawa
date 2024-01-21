@@ -17,7 +17,7 @@ class Vini:
     def sei_ferramentas_e_tecnologias(self):
         return [
           "Python",
-          "JS", # E um pouco de TS
+          "JS & TS",
           "Java",
           "Flutter",
           "React",
@@ -25,16 +25,15 @@ class Vini:
           "Angular",
           "PostreSQL",
           "MySQL",
-          "NoSQL", # Já mexi com: Mongo, elasticsearch, DynamoDB e neo4j.
-          "AWS", # Mexo no dia a dia: Cloudwatch, S3, AWS Batch, AWS Lambda, 
-                 #   IAM, ECR, DynamoDB, Elastic Beanstalk, ECS, CloudFront e API Gateaway.
-          "Firebase", # Uso eventualmente: Firestore e Realtime.
-          "Docker",
-          "PHP",
+          "NoSQL", # Mongo, elasticsearch, DynamoDB e neo4j.
+          "AWS", # Cloudwatch, S3, AWS Batch, AWS Lambda, 
+                 # ECR, DynamoDB, Elastic Beanstalk, ECS, CloudFront e API Gateaway.
+          "Firebase", # Firestore, Storage e Realtime.
+          "Docker"
         ]
     
     def estou_aprendendo(self):
-        return [".net Core MVC", "Go", "Ruby"]
+        return ["Clojure", "Svelte", "K8s"]
 
 eu = Vini()
 eu.sei_ferramentas_e_tecnologias()
